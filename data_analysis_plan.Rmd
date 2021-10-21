@@ -1,0 +1,20 @@
+---
+title: "data_analysis_plan"
+author: "godswillosa"
+date: "10/21/2021"
+output: html_document
+---
+
+## Data Analysis Plan
+
+-   Code variables so that results run in the correct direction
+
+-   Dis-aggregate the affective polarization variable into intraparty affect
+
+-   Create Variables for the following measures:
+
+    -   **Ethnocentrism**
+
+    -   **Racial Resentment**
+
+-   Run models with ethnocentrism and racial resentment measure
