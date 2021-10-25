@@ -18,3 +18,41 @@ output: html_document
     -   **Racial Resentment**
 
 -   Run models with ethnocentrism and racial resentment measure
+
+## Variables
+
+-   Dependent:
+
+    -   Out party Affect
+
+    -   In Party Affect
+
+    -   Affective Polarization
+
+-   Independent:
+
+    -   Group Identity
+
+        -   Party ID
+
+        -   Race
+
+        -   Religion
+
+    -   Group Identity Strength
+
+        -   Strong Party ID
+
+        -   Ethnocentrism
+
+        -   "Religio-centrism"
+
+    -   Political Knowledge
+
+    -   Ideology (Options)
+
+        -   Self Reported Ideology
+
+        -   Ideology via Policy Preference Scales
+
+-   
