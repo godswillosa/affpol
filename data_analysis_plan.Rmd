@@ -19,6 +19,10 @@ output: html_document
 
 -   Run models with ethnocentrism and racial resentment measure
 
+## Ethnocentrism
+
+-    Need to create a value for ethnocentrism for intelligence and hardworking stereotypes conditional on what your identity is
+
 ## Variables
 
 -   Dependent:
