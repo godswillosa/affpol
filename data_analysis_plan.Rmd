@@ -21,7 +21,7 @@ output: html_document
 
 ## Ethnocentrism
 
--    Need to create a value for ethnocentrism for intelligence and hardworking stereotypes conditional on what your identity is
+-   Need to create a value for ethnocentrism for intelligence and hardworking stereotypes conditional on what your identity is
 
 ## Variables
 
