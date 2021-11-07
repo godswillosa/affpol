@@ -36,9 +36,15 @@ nes_total<- as_tibble(nes_total)
 ################# Ethnocentrism Creation####################3
 
 # intelligencewhites
+for (val in anes_limited$dem_racecps_white){
 if (anes_limited$dem_racecps_white==1) {
   anes_limited$eth_intell <- (anes_limited$stype_intwhite - mean(c(anes_limited$stype_intasian, anes_limited$stype_intblack, anes_limited$stype_inthisp)))
 }
+}
+
+for (val in anes_limited$dem_racecps_white){
+  ifelse(anes_limited$dem_racecps_white==1, (anes_limited$eth_intell <- (anes_limited$stype_intwhite - mean(c(anes_limited$stype_intasian, anes_limited$stype_intblack, anes_limited$stype_inthisp)))), 0)
+  }
 
 #intelligence blacks
 if (anes_limited$dem_racecps_black==1) {
